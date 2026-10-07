@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WaterSafe — accessible water-safety education for communities. Know the water. Stay safe.">
+  <title>WaterSafe — Know the Water. Stay Safe.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="WaterSafe home">
+        <img class="brand-logo"src="icons/watersafe%20icon.png" alt="WaterSafe logo"></span><span>WaterSafe</span>
+      </a>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#work" data-i18n="nav_work">Our Work</a>
+        <a href="#course" data-i18n="nav_course">Digital Course</a>
+        <a href="#resources" data-i18n="nav_resources">Resources</a>
+        <a href="#emergency" data-i18n="nav_emergency">Emergency Basics</a>
+        <a href="#partners" data-i18n="nav_partners">For Organizations</a>
+        <a class="nav-cta" href="#contact" data-i18n="nav_get_involved">Get Involved</a>
+        <select id="language-select" class="language-select" aria-label="Language">
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+          <option value="hi">हिन्दी</option>
+          <option value="ar">العربية</option>
+          <option value="es">Español</option>
+        </select>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="whale-animation" aria-hidden="true">
+  🐋
+</div>
+      <div class="hero-water"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero_eyebrow">COMMUNITY WATER SAFETY EDUCATION</p>
+          <h1><span data-i18n="hero_title1">Know the water.</span><br><span data-i18n="hero_title2">Stay safe.</span></h1>
+          <p class="hero-text" data-i18n="hero_text">WaterSafe makes reliable, practical water-safety education more accessible to communities through workshops, digital resources, and community partnerships.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#work" data-i18n="hero_btn1">Explore our work</a>
+            <a class="btn secondary" href="#partners" data-i18n="hero_btn2">Partner with us</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="ring">✓</div>
+          <p class="card-label" data-i18n="approach_label">OUR APPROACH</p>
+          <h3 data-i18n="approach_title">Knowledge before the water.</h3>
+          <p data-i18n="approach_text">We focus on helping people recognize risks, understand their surroundings, and make informed decisions around water.</p>
+          <div class="mini-stats">
+            <div><strong>30</strong><span data-i18n="stat_workshops">min workshops</span></div>
+            <div><strong>1→many</strong><span data-i18n="stat_model">community model</span></div>
+            <div><strong data-i18n="stat_free">Free</strong><span data-i18n="stat_education">pilot education</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mission section" id="about">
+      <div class="container narrow">
+        <p class="eyebrow" data-i18n="mission_eyebrow">OUR MISSION</p>
+        <h2 data-i18n="mission_title">Making water-safety knowledge accessible to everyone.</h2>
+        <p class="lead" data-i18n="mission_text">WaterSafe is dedicated to making reliable, accessible water-safety education available to communities everywhere. Through community education, digital resources, and partnerships, we aim to equip people with the knowledge and confidence to recognize water-related risks, make safer decisions, and connect with opportunities to develop essential water-safety skills.</p>
+      </div>
+      <div class="container values-grid">
+        <article class="value">
+          <div class="icon">⌁</div>
+          <h3 data-i18n="value_safety_title">Safety</h3>
+          <p data-i18n="value_safety_text">We turn essential water-safety knowledge into practical guidance people can understand, remember, and apply.</p>
+        </article>
+        <article class="value">
+          <div class="icon">◌</div>
+          <h3 data-i18n="value_access_title">Accessibility</h3>
+          <p data-i18n="value_access_text">Education should be understandable and reachable regardless of someone's previous swimming experience or background.</p>
+        </article>
+        <article class="value">
+          <div class="icon">↗</div>
+          <h3 data-i18n="value_community_title">Community</h3>
+          <p data-i18n="value_community_text">We work alongside organizations and communities rather than building a separate system from the ground up.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="work section dark" id="work">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow light" data-i18n="work_eyebrow">OUR WORK</p>
+            <h2 data-i18n="work_title">Education designed to travel.</h2>
+          </div>
+          <p data-i18n="work_intro">We build reusable resources that can reach people where they already learn, gather, and connect.</p>
+        </div>
+        <div class="work-grid">
+          <article class="work-card featured">
+            <span class="number">01</span>
+            <h3 data-i18n="work1_title">Community Workshops</h3>
+            <p data-i18n="work1_text">A free, approximately 30-minute introduction to essential water safety, designed to be hosted by community organizations.</p>
+            <ul>
+              <li data-i18n="work1_li1">Common water hazards</li>
+              <li data-i18n="work1_li2">Supervision and safer behavior</li>
+              <li data-i18n="work1_li3">Life jackets and PFD awareness</li>
+              <li data-i18n="work1_li4">When and how to seek help</li>
+              <li data-i18n="work1_li5">Next steps and local resources</li>
+            </ul>
+          </article>
+          <article class="work-card">
+            <span class="number">02</span>
+            <h3 data-i18n="work2_title">Digital Library</h3>
+            <p data-i18n="work2_text">Short videos, visual guides, and concise resources that make water-safety concepts easier to learn and share.</p>
+          </article>
+          <article class="work-card">
+            <span class="number">03</span>
+            <h3 data-i18n="work3_title">Resource Map</h3>
+            <p data-i18n="work3_text">A practical way to connect people with existing swimming lessons, aquatic facilities, and water-safety programs.</p>
+          </article>
+          <article class="work-card">
+            <span class="number">04</span>
+            <h3 data-i18n="work4_title">Workshop Kit</h3>
+            <p data-i18n="work4_text">A reusable package for partner organizations: presentation, facilitator guide, participant handout, resources, and evaluation tools.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="workshop section" id="workshop">
+      <div class="container workshop-grid">
+        <div>
+          <p class="eyebrow" data-i18n="workshop_eyebrow">THE 30-MINUTE WORKSHOP</p>
+          <h2 data-i18n="workshop_title">Simple enough to access. Serious enough to matter.</h2>
+          <p class="lead" data-i18n="workshop_intro">The WaterSafe workshop is an educational introduction to water safety—not a replacement for professional swimming, lifeguarding, rescue, or first-aid training.</p>
+          <a class="text-link" href="#contact" data-i18n="workshop_request">Request a workshop →</a>
+        </div>
+        <div class="timeline">
+          <div><span>01</span><div><strong data-i18n="timeline1_title">Understand the risks</strong><p data-i18n="timeline1_text">Recognize hazards in pools, lakes, rivers, and other environments.</p></div></div>
+          <div><span>02</span><div><strong data-i18n="timeline2_title">Make safer decisions</strong><p data-i18n="timeline2_text">Explore supervision, safer behavior, PFD awareness, and common misconceptions.</p></div></div>
+          <div><span>03</span><div><strong data-i18n="timeline3_title">Know what to do next</strong><p data-i18n="timeline3_text">Learn where to find reliable information and opportunities for further skills development.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="course section" id="course">
+      <div class="container course-grid">
+        <div>
+          <p class="eyebrow" data-i18n="course_eyebrow">DIGITAL COURSE</p>
+          <h2 data-i18n="course_title">Learn at your own depth.</h2>
+          <p class="lead" data-i18n="course_intro">A self-paced collection of WaterSafe lessons designed to help you build water-safety knowledge whenever and wherever you learn best.</p>
+        </div>
+        <div class="video-area">
+          <div class="video-placeholder">
+            <div class="play">▶</div>
+            <strong data-i18n="course_video_title">Video lessons coming soon</strong>
+            <span data-i18n="course_video_text">Your course videos will appear here.</span>
+          </div>
+          <div class="course-list">
+            <div><span>01</span><p data-i18n="course_lesson1">Understanding water hazards</p></div>
+            <div><span>02</span><p data-i18n="course_lesson2">Safer decisions around water</p></div>
+            <div><span>03</span><p data-i18n="course_lesson3">Emergency basics</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="resources section soft" id="resources">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="resources_eyebrow">WATER SAFETY</p>
+            <h2 data-i18n="resources_title">Learn before you need it.</h2>
+          </div>
+          <p data-i18n="resources_intro">Our resources are designed to be clear, practical, and easy to share.</p>
+        </div>
+        <div class="resource-grid">
+          <article class="resource-card">
+            <div class="resource-icon">01</div>
+            <h3 data-i18n="res1_title">Know the Environment</h3>
+            <p data-i18n="res1_text">Water can change quickly. Learn to identify conditions and hazards before entering.</p>
+            <a href="#contact" data-i18n="coming_soon">Coming soon →</a>
+          </article>
+          <article class="resource-card">
+            <div class="resource-icon">02</div>
+            <h3 data-i18n="res2_title">Know Your Limits</h3>
+            <p data-i18n="res2_text">Swimming ability is only one part of water safety. Preparation and awareness matter too.</p>
+            <a href="#contact" data-i18n="coming_soon">Coming soon →</a>
+          </article>
+          <article class="resource-card">
+            <div class="resource-icon">03</div>
+            <h3 data-i18n="res3_title">Know Where to Learn</h3>
+            <p data-i18n="res3_text">Find reliable pathways to swimming instruction and other water-safety education.</p>
+            <a href="#contact" data-i18n="coming_soon">Coming soon →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="emergency section dark" id="emergency">
+      <div class="container emergency-grid">
+        <div>
+          <p class="eyebrow light" data-i18n="emergency_eyebrow">EMERGENCY BASICS</p>
+          <h2 data-i18n="emergency_title">Reach. Throw. Don't go.</h2>
+          <p class="emergency-lead" data-i18n="emergency_intro">If someone is in trouble in the water, protect yourself first. Do not enter the water unless you are trained to perform a rescue.</p>
+          <div class="call-911" data-i18n="call_911">Call 911 for emergency help.</div>
+        </div>
+        <div class="emergency-cards">
+          <article><span>01</span><h3 data-i18n="em1_title">The Golden Rule</h3><p data-i18n="em1_text">Never put yourself in danger to rescue someone else. Stay on land and use a safe rescue method.</p></article>
+          <article><span>02</span><h3 data-i18n="em2_title">Reach with a pole</h3><p data-i18n="em2_text">From a safe position on shore, extend a pole or another suitable reaching aid toward the person so they can grab it.</p></article>
+          <article><span>03</span><h3 data-i18n="em3_title">Throw a buoyancy aid</h3><p data-i18n="em3_text">Throw a buoyancy aid, such as a life ring, toward the person. Do not throw yourself into the water.</p></article>
+          <article><span>04</span><h3 data-i18n="em4_title">Never enter unless trained</h3><p data-i18n="em4_text">Water rescues can be dangerous. Never enter the water to perform a rescue unless you are appropriately trained.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners section" id="partners">
+      <div class="container partner-box">
+        <div>
+          <p class="eyebrow" data-i18n="partners_eyebrow">FOR ORGANIZATIONS</p>
+          <h2 data-i18n="partners_title">Bring WaterSafe to your community.</h2>
+          <p class="lead" data-i18n="partners_intro">We partner with community organizations that want to offer an accessible introduction to water safety. There is no cost to the organization or participants during our pilot.</p>
+        </div>
+        <div class="partner-points">
+          <div><strong data-i18n="partner_host">Host</strong><span data-i18n="partner_host_text">A free ~30-minute workshop at a time that fits your programming.</span></div>
+          <div><strong data-i18n="partner_share">Share</strong><span data-i18n="partner_share_text">Make WaterSafe's digital resources available to your community.</span></div>
+          <div><strong data-i18n="partner_shape">Shape</strong><span data-i18n="partner_shape_text">Help us understand community needs and improve the program.</span></div>
+          <a class="btn primary" href="#contact" data-i18n="partner_btn">Discuss a partnership</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section dark" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow light" data-i18n="contact_eyebrow">GET INVOLVED</p>
+          <h2 data-i18n="contact_title">Let's make water-safety education easier to access.</h2>
+          <p data-i18n="contact_intro">Interested in hosting a workshop, sharing resources, volunteering, or collaborating with WaterSafe?</p>
+        </div>
+       
+      <form class="contact-form" action="https://formspree.io/f/myekgqva" method="POST">
+
+  <label>
+    Name
+    <input type="text" name="name" placeholder="Your name" required>
+  </label>
+
+  <label>
+    Organization
+    <input type="text" name="organization" placeholder="Organization (optional)">
+  </label>
+
+  <label>
+    Email
+    <input type="email" name="email" placeholder="you@example.com" required>
+  </label>
+
+  <label>
+    How can we work together?
+    <textarea name="message" rows="4" placeholder="Tell us a little about your idea..." required></textarea>
+  </label>
+
+  <button class="btn light-btn" type="submit">
+    Send inquiry
+  </button>
+
+</form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  <div class="container footer">
+    <div class="brand">
+      <img class="brand-logo" src="icons/watersafe%20icon.png" alt="WaterSafe logo">
+      <span>WaterSafe</span>
+    </div>
+
+    <p data-i18n="footer_tagline">Know the water. Stay safe.</p>
+    <p>
+      © <span id="year"></span> WaterSafe.
+      <span data-i18n="footer_text">Student-led water-safety education.</span>
+    </p>
+    <div class="social-links">
+  <a href="https://www.instagram.com/watersafe_can/" target="_blank" rel="noopener noreferrer" aria-label="WaterSafe Instagram">
+    <svg class="instagram-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect>
+      <circle cx="12" cy="12" r="4"></circle>
+      <circle cx="17.5" cy="6.5" r="1"></circle>
+    </svg>
+  </a>
+</div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
